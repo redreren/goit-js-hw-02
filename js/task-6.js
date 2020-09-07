@@ -17,9 +17,13 @@ while (input) {
     }
   }
 }
-for (let number of numbers) {
-  total += number;
+// for (let number of numbers) {
+//   total += number;
+// }
+for (let i = 0; i < numbers; i++) {
+  total += numbers[i];
 }
+
 console.log(numbers);
 console.log(`Общая сумма чисел равна ${total}`);
 
