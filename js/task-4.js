@@ -6,8 +6,8 @@ const formatString = function (string) {
   //     return (string = string.slice(0, 40) + "...");
   //   }
   //  METHOD 2
-  if (string.length <= 40) return string;
-  return `${string.substr(0, 40)}...`;
+  // if (string.length <= 40) return string;
+  // return `${string.substr(0, 40)}...`;
 };
 
 /*

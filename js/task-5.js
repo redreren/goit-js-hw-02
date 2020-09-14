@@ -1,7 +1,7 @@
 const checkForSpam = function (message) {
   message = message.toLowerCase();
   // console.log(message.includes('spam'));
-  //   console.log(message.indexOf("span"));
+  //   console.log(message.indexOf("spam"));
   //   if (message.includes("spam") || message.includes("sale")) return true;
   //   return false;
 
@@ -12,7 +12,7 @@ const checkForSpam = function (message) {
 
   // METHOD 3
 
-  return message.includes("spam") || message.includes("sale") ? true : false;
+  // return message.includes("spam") || message.includes("sale") ? true : false;
 };
 
 /*
